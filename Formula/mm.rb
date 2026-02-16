@@ -1,5 +1,5 @@
 class Mm < Formula
-  desc "Personal knowledge management CLI with built-in MCP server"
+  desc "Personal knowledge management CLI"
   homepage "https://github.com/kecbigmt/mm"
   version "0.5.0"
   license "AGPL-3.0-or-later"
