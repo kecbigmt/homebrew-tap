@@ -1,5 +1,5 @@
 class Mm < Formula
-  desc "Personal knowledge management CLI"
+  desc "Personal knowledge management CLI with built-in MCP server"
   homepage "https://github.com/kecbigmt/mm"
   version "0.5.0"
   license "AGPL-3.0-or-later"
@@ -7,11 +7,11 @@ class Mm < Formula
   on_macos do
     on_arm do
       url "https://github.com/kecbigmt/mm/releases/download/v#{version}/mm-#{version}-darwin-arm64"
-      sha256 "d9d541a9d920720b928da206e6dc349778ebff3ce84102b540389c01638e45e0"
+      sha256 "4066daaeb525334a53eafab62e1a3c4a9aa886d22dcfdc131ee65e449efe79ac"
     end
     on_intel do
       url "https://github.com/kecbigmt/mm/releases/download/v#{version}/mm-#{version}-darwin-x64"
-      sha256 "ae22f37c2cc6b1230099257cec11092562212a59a9c723235caf6fa27f884cf6"
+      sha256 "7028f581036280f97bef5d763f1e41318fdd2452056d88b13460ca9bcc2a0f90"
     end
   end
 
